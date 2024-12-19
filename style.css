@@ -1,0 +1,53 @@
+html{
+    font-family: monospace;
+}
+p{
+    
+    color:rgb(230, 136, 53);
+}
+
+h1{ 
+    color:rgb(255, 51, 0);
+}
+label{
+    color:rgb(255, 179, 0);
+}
+
+body{
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background: black;
+   
+}
+
+input{
+    margin: 1rem;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: orange;
+    background: rgb(34, 1, 1);
+}
+
+.guessSubmit:hover{
+    cursor: pointer;
+    box-shadow:3px 3px orange;
+}
+
+.form{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastResult{
+    color: orange;
+    padding: 3px;
+}
+.guessSubmit:active{
+    background:rgb(244, 94, 1);
+    color:black;
+}
